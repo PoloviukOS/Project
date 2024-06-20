@@ -1,0 +1,13 @@
+{
+    "port": 5000,
+    "mongoURI": "mongodb://localhost:27017/project",
+    "defaultAvatar": "uploads/default-user.png",
+    "jwtSecret": "secretKey",
+    "adminData": {
+        "fullName": "",
+        "numberPhone": "",
+        "email": "",
+        "password": ""
+    },
+    "sendgridMailApiKey": ""
+}

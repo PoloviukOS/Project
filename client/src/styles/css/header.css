@@ -1,0 +1,365 @@
+.header .control-menu .control-menu__list .control-menu__item, .header .control-menu .control-menu__list, .header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__activator,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__activator,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__activator,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__activator, .header .custom-menu .custom-menu__list .custom-menu__item, .header .custom-menu .custom-menu__list, .header .navigation-menu .navigation-menu__logo-activator .navigation-menu__logo-bottom, .header, .header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .authentication-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .authentication-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .account-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .account-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .authentication-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .authentication-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .account-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .account-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .authentication-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .authentication-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .account-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .account-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .authentication-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .authentication-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .account-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .account-menu__context-list .account-menu__context-item, .header .navigation-menu .navigation-menu__context .navigation-menu__context-list .navigation-menu__context-item {
+  display: flex;
+  align-items: center;
+}
+
+.header, .header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context, .header .navigation-menu .navigation-menu__context {
+  background-color: #1c1c1e;
+}
+
+.header .control-menu .control-menu__list .control-menu__item::before, .header .custom-menu .custom-menu__list .custom-menu__item::before, .header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .authentication-menu__context-list .authentication-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .authentication-menu__context-list .account-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .account-menu__context-list .authentication-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .account-menu__context-list .account-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .authentication-menu__context-list .authentication-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .authentication-menu__context-list .account-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .account-menu__context-list .authentication-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .account-menu__context-list .account-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .authentication-menu__context-list .authentication-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .authentication-menu__context-list .account-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .account-menu__context-list .authentication-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .account-menu__context-list .account-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .authentication-menu__context-list .authentication-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .authentication-menu__context-list .account-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .account-menu__context-list .authentication-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .account-menu__context-list .account-menu__context-item:hover, .header .navigation-menu .navigation-menu__context .navigation-menu__context-list .navigation-menu__context-item:hover, .header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__activator .item-arrow,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__activator .item-arrow,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__activator .item-arrow,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__activator .item-arrow, .header .navigation-menu .navigation-menu__logo-activator .navigation-menu__logo-bottom .navigation-menu__activator-arrow {
+  background-color: #FCD54C;
+}
+
+.header .control-menu .control-menu__list .control-menu__item, .header .custom-menu .custom-menu__list .custom-menu__item, .header .navigation-menu .navigation-menu__logo-activator, .header .navigation-menu {
+  position: relative;
+}
+
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context, .header .navigation-menu .navigation-menu__context, .header .navigation-menu .navigation-menu__logo-activator::before, .header .control-menu .control-menu__list .control-menu__item::before, .header .custom-menu .custom-menu__list .custom-menu__item::before {
+  position: absolute;
+}
+
+.header .control-menu .control-menu__list .control-menu__item, .header .custom-menu .custom-menu__list .custom-menu__item, .header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .authentication-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .authentication-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .account-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .account-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .authentication-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .authentication-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .account-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .account-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .authentication-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .authentication-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .account-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .account-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .authentication-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .authentication-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .account-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .account-menu__context-list .account-menu__context-item, .header .navigation-menu .navigation-menu__context .navigation-menu__context-list .navigation-menu__context-item {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 15px;
+}
+
+.header .control-menu .control-menu__list .control-menu__item, .header .custom-menu .custom-menu__list .custom-menu__item, .header .navigation-menu .navigation-menu__logo-activator, .header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .authentication-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .authentication-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .account-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .account-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .authentication-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .authentication-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .account-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .account-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .authentication-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .authentication-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .account-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .account-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .authentication-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .authentication-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .account-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .account-menu__context-list .account-menu__context-item, .header .navigation-menu .navigation-menu__context .navigation-menu__context-list .navigation-menu__context-item {
+  cursor: pointer;
+}
+
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .authentication-menu__context-list .authentication-menu__context-item .item-icon,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .authentication-menu__context-list .account-menu__context-item .item-icon,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .account-menu__context-list .authentication-menu__context-item .item-icon,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .account-menu__context-list .account-menu__context-item .item-icon,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .authentication-menu__context-list .authentication-menu__context-item .item-icon,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .authentication-menu__context-list .account-menu__context-item .item-icon,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .account-menu__context-list .authentication-menu__context-item .item-icon,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .account-menu__context-list .account-menu__context-item .item-icon,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .authentication-menu__context-list .authentication-menu__context-item .item-icon,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .authentication-menu__context-list .account-menu__context-item .item-icon,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .account-menu__context-list .authentication-menu__context-item .item-icon,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .account-menu__context-list .account-menu__context-item .item-icon,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .authentication-menu__context-list .authentication-menu__context-item .item-icon,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .authentication-menu__context-list .account-menu__context-item .item-icon,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .account-menu__context-list .authentication-menu__context-item .item-icon,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .account-menu__context-list .account-menu__context-item .item-icon, .header .navigation-menu .navigation-menu__context .navigation-menu__context-list .navigation-menu__context-item .item-icon, .header .control-menu .control-menu__list .control-menu__item::before, .header .custom-menu .custom-menu__list .custom-menu__item::before, .header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .authentication-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .authentication-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .account-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .account-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .authentication-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .authentication-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .account-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .account-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .authentication-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .authentication-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .account-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .account-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .authentication-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .authentication-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .account-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .account-menu__context-list .account-menu__context-item, .header .navigation-menu .navigation-menu__context .navigation-menu__context-list .navigation-menu__context-item, .header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context, .header .navigation-menu .navigation-menu__context, .header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__activator .item-arrow,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__activator .item-arrow,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__activator .item-arrow,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__activator .item-arrow, .header .navigation-menu .navigation-menu__logo-activator .navigation-menu__logo-bottom .navigation-menu__activator-arrow {
+  transition: all 0.3s ease;
+}
+
+.header .control-menu .control-menu__list .control-menu__item .item-name, .header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .authentication-menu__context-list .authentication-menu__context-item .item-name,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .authentication-menu__context-list .account-menu__context-item .item-name,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .account-menu__context-list .authentication-menu__context-item .item-name,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .account-menu__context-list .account-menu__context-item .item-name,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .authentication-menu__context-list .authentication-menu__context-item .item-name,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .authentication-menu__context-list .account-menu__context-item .item-name,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .account-menu__context-list .authentication-menu__context-item .item-name,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .account-menu__context-list .account-menu__context-item .item-name,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .authentication-menu__context-list .authentication-menu__context-item .item-name,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .authentication-menu__context-list .account-menu__context-item .item-name,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .account-menu__context-list .authentication-menu__context-item .item-name,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .account-menu__context-list .account-menu__context-item .item-name,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .authentication-menu__context-list .authentication-menu__context-item .item-name,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .authentication-menu__context-list .account-menu__context-item .item-name,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .account-menu__context-list .authentication-menu__context-item .item-name,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .account-menu__context-list .account-menu__context-item .item-name, .header .custom-menu .custom-menu__list .custom-menu__item .item-name, .header .navigation-menu .navigation-menu__context .navigation-menu__context-list .navigation-menu__context-item .item-name {
+  margin-left: 5px;
+}
+
+.header .navigation-menu .navigation-menu__logo-activator::before, .header .control-menu .control-menu__list .control-menu__item::before, .header .custom-menu .custom-menu__list .custom-menu__item::before {
+  content: "";
+}
+
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__activator .item-arrow,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__activator .item-arrow,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__activator .item-arrow,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__activator .item-arrow, .header .navigation-menu .navigation-menu__logo-activator .navigation-menu__logo-bottom .navigation-menu__activator-arrow {
+  width: 10px;
+  height: 6px;
+  -webkit-clip-path: polygon(50% 100%, 0% 0%, 100% 0%);
+          clip-path: polygon(50% 100%, 0% 0%, 100% 0%);
+}
+
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__activator .item-arrow.active,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__activator .item-arrow.active,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__activator .item-arrow.active,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__activator .item-arrow.active, .header .navigation-menu .navigation-menu__logo-activator .navigation-menu__logo-bottom .navigation-menu__activator-arrow.active {
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+          clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context, .header .navigation-menu .navigation-menu__context {
+  width: 100%;
+  background-color: #252527;
+  opacity: 0;
+  transform: translateY(-5px);
+  visibility: hidden;
+}
+
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context.active,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context.active,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context.active,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context.active, .header .navigation-menu .navigation-menu__context.active {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.header .control-menu .control-menu__list, .header .custom-menu .custom-menu__list, .header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .authentication-menu__context-list,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .account-menu__context-list,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .authentication-menu__context-list,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .account-menu__context-list,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .authentication-menu__context-list,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .account-menu__context-list,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .authentication-menu__context-list,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .account-menu__context-list, .header .navigation-menu .navigation-menu__context .navigation-menu__context-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .authentication-menu__context-list,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .account-menu__context-list,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .authentication-menu__context-list,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .account-menu__context-list,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .authentication-menu__context-list,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .account-menu__context-list,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .authentication-menu__context-list,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .account-menu__context-list, .header .navigation-menu .navigation-menu__context .navigation-menu__context-list {
+  margin: 5px;
+}
+
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .authentication-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .authentication-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .account-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .account-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .authentication-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .authentication-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .account-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .account-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .authentication-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .authentication-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .account-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .account-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .authentication-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .authentication-menu__context-list .account-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .account-menu__context-list .authentication-menu__context-item,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .account-menu__context-list .account-menu__context-item, .header .navigation-menu .navigation-menu__context .navigation-menu__context-list .navigation-menu__context-item {
+  padding: 10px;
+}
+
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .authentication-menu__context-list .authentication-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .authentication-menu__context-list .account-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .account-menu__context-list .authentication-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .account-menu__context-list .account-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .authentication-menu__context-list .authentication-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .authentication-menu__context-list .account-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .account-menu__context-list .authentication-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .account-menu__context-list .account-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .authentication-menu__context-list .authentication-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .authentication-menu__context-list .account-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .account-menu__context-list .authentication-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .account-menu__context-list .account-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .authentication-menu__context-list .authentication-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .authentication-menu__context-list .account-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .account-menu__context-list .authentication-menu__context-item:hover,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .account-menu__context-list .account-menu__context-item:hover, .header .navigation-menu .navigation-menu__context .navigation-menu__context-list .navigation-menu__context-item:hover {
+  color: #1c1c1e;
+}
+
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .authentication-menu__context-list .authentication-menu__context-item:hover > .item-icon,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .authentication-menu__context-list .account-menu__context-item:hover > .item-icon,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .account-menu__context-list .authentication-menu__context-item:hover > .item-icon,
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context .account-menu__context-list .account-menu__context-item:hover > .item-icon,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .authentication-menu__context-list .authentication-menu__context-item:hover > .item-icon,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .authentication-menu__context-list .account-menu__context-item:hover > .item-icon,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .account-menu__context-list .authentication-menu__context-item:hover > .item-icon,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context .account-menu__context-list .account-menu__context-item:hover > .item-icon,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .authentication-menu__context-list .authentication-menu__context-item:hover > .item-icon,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .authentication-menu__context-list .account-menu__context-item:hover > .item-icon,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .account-menu__context-list .authentication-menu__context-item:hover > .item-icon,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context .account-menu__context-list .account-menu__context-item:hover > .item-icon,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .authentication-menu__context-list .authentication-menu__context-item:hover > .item-icon,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .authentication-menu__context-list .account-menu__context-item:hover > .item-icon,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .account-menu__context-list .authentication-menu__context-item:hover > .item-icon,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context .account-menu__context-list .account-menu__context-item:hover > .item-icon, .header .navigation-menu .navigation-menu__context .navigation-menu__context-list .navigation-menu__context-item:hover > .item-icon {
+  filter: grayscale(100%) invert(100%);
+}
+
+.header .control-menu .control-menu__list .control-menu__item::before, .header .custom-menu .custom-menu__list .custom-menu__item::before {
+  width: 100%;
+  height: 2px;
+  left: 0;
+  bottom: -5px;
+  transform: scaleX(0);
+}
+
+.header .control-menu .control-menu__list .control-menu__item:hover::before, .header .custom-menu .custom-menu__list .custom-menu__item:hover::before {
+  transform: scaleX(1);
+}
+
+.header {
+  width: 100%;
+  height: 64px;
+  justify-content: space-between;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.header .item-icon {
+  width: 18px;
+  height: 18px;
+}
+.header .navigation-menu .navigation-menu__logo-activator {
+  line-height: 22px;
+  padding: 4px 8px;
+}
+.header .navigation-menu .navigation-menu__logo-activator::before {
+  left: 0;
+  top: 0;
+  height: 93%;
+  width: 15%;
+  border: 2px solid #FCD54C;
+  border-right: none;
+}
+.header .navigation-menu .navigation-menu__logo-activator .navigation-menu__logo-name {
+  font-size: 21px;
+}
+.header .navigation-menu .navigation-menu__logo-activator .navigation-menu__logo-bottom {
+  justify-content: space-around;
+}
+.header .navigation-menu .navigation-menu__logo-activator .navigation-menu__logo-bottom .navigation-menu__logo-slogan {
+  font-size: 10px;
+  font-style: italic;
+}
+.header .navigation-menu .navigation-menu__context {
+  top: calc(100% + 10px);
+  z-index: 1;
+}
+.header .navigation-menu .navigation-menu__context .navigation-menu__context-list .navigation-menu__context-item.about-us, .header .navigation-menu .navigation-menu__context .navigation-menu__context-list .navigation-menu__context-item.support {
+  opacity: 0.5;
+}
+.header .custom-menu .custom-menu__list .custom-menu__item:nth-child(n) {
+  margin: 0 15px;
+}
+.header .custom-menu .custom-menu__list .authentication-menu,
+.header .custom-menu .custom-menu__list .account-menu {
+  z-index: 1;
+}
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__activator .item-name,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__activator .item-name,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__activator .item-name,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__activator .item-name {
+  margin: 0 8px;
+}
+.header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context,
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context,
+.header .custom-menu .custom-menu__list .account-menu .authentication-menu__context,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context {
+  top: calc(100% + 27px);
+}
+.header .custom-menu .custom-menu__list .authentication-menu .account-menu__context,
+.header .custom-menu .custom-menu__list .account-menu .account-menu__context {
+  width: 165%;
+}
+.header .control-menu .control-menu__list .control-menu__item-line {
+  width: 2px;
+  height: 18px;
+  background-color: #FCD54C;
+  margin: 0 15px;
+}

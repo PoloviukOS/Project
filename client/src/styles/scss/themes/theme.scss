@@ -1,0 +1,314 @@
+.containerApp {
+
+    &.dark { }
+
+    &.light {
+        background-color: rgb(30, 30, 30);
+
+        * {
+            scrollbar-color: #FCD54C rgb(30, 30, 30);
+        }
+
+        .header {
+            background-color: rgb(38, 38, 40);
+
+            .navigation-menu__context {
+                background-color: rgb(47, 47, 49);
+            }
+
+            .custom-menu {
+
+                .custom-menu__list {
+
+                    .authentication-menu,
+                    .account-menu {
+                        
+                        .authentication-menu__context,
+                        .account-menu__context {
+                            background-color: rgb(47, 47, 49);
+                        }
+                    }
+                }
+            }
+        }
+
+        .signUp-container {
+
+            .signUp-popup {
+                background-color: rgb(38, 38, 40);
+
+                .signUp-popup__header {
+                    background-color: rgb(47, 47, 49);
+                }
+
+                .signUp-popup__form {
+                    
+                    .signUp-popup__input-box {
+
+                        .signUp-popup__full-name,
+                        .signUp-popup__number-phone,
+                        .signUp-popup__email,
+                        .signUp-popup__password {
+                            background-color: rgb(44, 44, 44);
+                        }
+                    }
+                }
+            }
+        }
+
+        .signIn-container {
+
+            .signIn-popup {
+                background-color: rgb(38, 38, 40);
+
+                .signIn-popup__header {
+                    background-color: rgb(47, 47, 49);
+                }
+
+                .signIn-popup__form {
+                    
+                    .signIn-popup__input-box {
+
+                        .signIn-popup__email,
+                        .signIn-popup__password {
+                            background-color: rgb(44, 44, 44);
+                        }
+                    }
+                }
+            }
+        }
+
+        .profile-container {
+
+            .profile-popup {
+                background-color: rgb(38, 38, 40);
+
+                .profile-popup__header {
+                    background-color: rgb(47, 47, 49);
+
+                    .profile-popup__functional-part {
+
+                        .profile-popup__menu {
+
+                            .profile-menu__context {
+                                background-color: rgb(47, 47, 49);
+                            }
+                        }
+                    }
+                }
+
+                .profile-popup__form {
+
+                    .profile-popup__input-box {
+
+                        .profile-popup__full-name,
+                        .profile-popup__number-phone,
+                        .profile-popup__email,
+                        .profile-popup__password {
+                            background-color: rgb(44, 44, 44);
+                        }
+                    }
+                }
+            }
+        }
+
+        .realEstate-container {
+
+            .realEstate-popup {
+                background-color: rgb(38, 38, 40);
+
+                .realEstate-popup__header {
+                    background-color: rgb(47, 47, 49);
+
+                    .realEstate-popup__filter {
+
+                        .realEstate-popup__search {
+                            background-color: rgb(47, 47, 49);
+                        }
+                    }
+                }
+
+                .realEstate-popup__information-cards {
+
+                    .realEstate-popup__form,
+                    .realEstate-popup__card {
+
+                        .realEstate-popup__input-box {
+
+                            .realEstate-popup__full-address,
+                            .realEstate-popup__number-rooms,
+                            .realEstate-popup__price,
+                            .realEstate-popup__link,
+                            .realEstate-popup__description {
+                                background-color: rgb(44, 44, 44);
+                            }
+                        }
+                    }
+
+                    .swiper-scrollbar {
+                        background: rgb(55, 55, 55);
+                    }
+                }
+            }
+        }
+
+        .favorites-container {
+
+            .favorites-popup {
+                background-color: rgb(38, 38, 40);
+
+                .favorites-popup__header {
+                    background-color: rgb(47, 47, 49);
+
+                    .favorites-popup__filter {
+
+                        .favorites-popup__search {
+                            background-color: rgb(47, 47, 49);
+                        }
+                    }
+                }
+
+                .favorites-popup__information-cards {
+
+                    .favorites-popup__card {
+
+                        .favorites-popup__input-box {
+
+                            .favorites-popup__full-address,
+                            .favorites-popup__number-rooms,
+                            .favorites-popup__price,
+                            .favorites-popup__link,
+                            .favorites-popup__description {
+                                background-color: rgb(44, 44, 44);
+                            }
+                        }
+                    }
+
+                    .swiper-scrollbar {
+                        background: rgb(55, 55, 55);
+                    }
+                }
+            }
+        }
+
+        .orders-container {
+
+            .orders-popup {
+                background-color: rgb(38, 38, 40);
+
+                .orders-popup__header {
+                    background-color: rgb(47, 47, 49);
+                }
+
+                .orders-popup__form {
+
+                    .orders-popup__input-box {
+
+                        .orders-popup__full-name,
+                        .orders-popup__number-phone,
+                        .orders-popup__email,
+                        .orders-popup__order {
+                            background-color: rgb(44, 44, 44);
+                        }
+                    }
+                }
+            }
+        }
+
+        .adminConsole-container {
+
+            .adminConsole-popup {
+                background-color: rgb(38, 38, 40);
+
+                .adminConsole-popup__header {
+                    background-color: rgb(47, 47, 49);
+
+                    .adminConsole-popup__filter {
+
+                        .adminConsole-popup__search {
+                            background-color: rgb(47, 47, 49);
+                        }
+                    }
+                }
+
+                .adminConsole-popup__user-information {
+
+                    .adminConsole-popup__user-card {
+
+                        .adminConsole-popup__input-box {
+
+                            .adminConsole-popup__full-name,
+                            .adminConsole-popup__number-phone,
+                            .adminConsole-popup__email {
+                                background-color: rgb(44, 44, 44);
+                            }
+                        }
+                    }
+
+                    .swiper-scrollbar {
+                        background: rgb(55, 55, 55);
+                    }
+                }
+            }
+        }
+
+        .filter-container {
+
+            .filter-popup {
+                background-color: rgb(38, 38, 40);
+
+                .filter-popup__header {
+                    background-color: rgb(47, 47, 49);
+                }
+
+                .filter-popup__form {
+
+                    .filter-popup__input-box {
+
+                        .filter-popup__full-address,
+                        .filter-popup__number-rooms,
+                        .filter-popup__price {
+                            background-color: rgb(44, 44, 44);
+                        }
+                    }
+                }
+            }
+        }
+
+        .main-container {
+
+            .main__information-table {
+
+                .main-swiper__card {
+                    background-color: rgb(38, 38, 40);
+
+                    .main-swiper__input-box  {
+
+                        .main-swiper__full-address,
+                        .main-swiper__number-rooms,
+                        .main-swiper__price,
+                        .main-swiper__link,
+                        .main-swiper__description {
+                            background-color: rgb(44, 44, 44);
+                        }
+                    }
+                }
+
+                .swiper-scrollbar {
+                    background: rgb(55, 55, 55);
+                }
+
+                .main-swipper__additional-elements {
+
+                    .main-swipper__reboot {
+                        background-color: rgb(30, 30, 30);
+                    }
+                }
+            }
+        }
+
+        .footer {
+            background-color: rgb(38, 38, 40);
+        }
+    }
+}

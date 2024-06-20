@@ -1,0 +1,173 @@
+.main-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+.main-container .main__information-table {
+  width: calc(100% - 26px);
+  margin: 26px 0;
+}
+.main-container .main__information-table .main-swiper__card {
+  max-width: 480px;
+  max-height: 100%;
+  background-color: #1c1c1e;
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 26px;
+  cursor: grab;
+}
+.main-container .main__information-table .main-swiper__card:active {
+  cursor: grabbing;
+}
+.main-container .main__information-table .main-swiper__card .main-swiper__image-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main-container .main__information-table .main-swiper__card .main-swiper__image-box .main-swiper__image-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 2px solid #FCD54C;
+}
+.main-container .main__information-table .main-swiper__card .main-swiper__image-box .main-swiper__image-wrapper .realEstate-image {
+  width: 270px;
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-container .main__information-table .main-swiper__card .main-swiper__image-box .main-swiper__image-wrapper .user-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 60px;
+  height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px solid #FCD54C;
+}
+.main-container .main__information-table .main-swiper__card .main-swiper__input-box {
+  width: 100%;
+  margin: 24px 0;
+}
+.main-container .main__information-table .main-swiper__card .main-swiper__input-box .main-swiper__full-address,
+.main-container .main__information-table .main-swiper__card .main-swiper__input-box .main-swiper__number-rooms,
+.main-container .main__information-table .main-swiper__card .main-swiper__input-box .main-swiper__price,
+.main-container .main__information-table .main-swiper__card .main-swiper__input-box .main-swiper__link {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #fff;
+  padding: 4px 10px;
+  background-color: #222222;
+  opacity: 0.5;
+}
+.main-container .main__information-table .main-swiper__card .main-swiper__input-box .main-swiper__full-address input,
+.main-container .main__information-table .main-swiper__card .main-swiper__input-box .main-swiper__number-rooms input,
+.main-container .main__information-table .main-swiper__card .main-swiper__input-box .main-swiper__price input,
+.main-container .main__information-table .main-swiper__card .main-swiper__input-box .main-swiper__link input {
+  width: 100%;
+  font-size: 14px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #FCD54C;
+  padding: 5px 0;
+}
+.main-container .main__information-table .main-swiper__card .main-swiper__input-box .main-swiper__full-address .input-icon,
+.main-container .main__information-table .main-swiper__card .main-swiper__input-box .main-swiper__number-rooms .input-icon,
+.main-container .main__information-table .main-swiper__card .main-swiper__input-box .main-swiper__price .input-icon,
+.main-container .main__information-table .main-swiper__card .main-swiper__input-box .main-swiper__link .input-icon {
+  width: 18px;
+  height: 18px;
+  filter: brightness(0) invert(1);
+  margin-left: 10px;
+}
+.main-container .main__information-table .main-swiper__card .main-swiper__input-box .main-swiper__description {
+  border-bottom: 2px solid #fff;
+  padding: 4px 10px;
+  background-color: #222222;
+  opacity: 0.5;
+}
+.main-container .main__information-table .main-swiper__card .main-swiper__input-box .main-swiper__description textarea {
+  width: 100%;
+  height: 160px;
+  font-size: 14px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #FCD54C;
+  padding: 5px 0;
+}
+.main-container .main__information-table .main-swiper__card .main-swiper__input-box .main-swiper__number-rooms,
+.main-container .main__information-table .main-swiper__card .main-swiper__input-box .main-swiper__price,
+.main-container .main__information-table .main-swiper__card .main-swiper__input-box .main-swiper__link {
+  margin: 24px 0;
+}
+.main-container .main__information-table .main-swiper__card .main-swiper__button-box {
+  display: flex;
+  align-items: center;
+}
+.main-container .main__information-table .main-swiper__card .main-swiper__button-box .main-swiper__save-btn,
+.main-container .main__information-table .main-swiper__card .main-swiper__button-box .main-swiper__delete-btn {
+  background-color: #FCD54C;
+  border: none;
+  color: #1c1c1e;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 60px;
+  cursor: pointer;
+}
+.main-container .main__information-table .main-swiper__card .main-swiper__button-box .main-swiper__save-btn.active,
+.main-container .main__information-table .main-swiper__card .main-swiper__button-box .main-swiper__delete-btn.active {
+  background-color: red;
+  color: #fff;
+}
+.main-container .main__information-table .main-swiper__card .main-swiper__button-box .favorites-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+.main-container .main__information-table .swiper-scrollbar {
+  background: #2d2d2d;
+  margin-bottom: -4px;
+}
+.main-container .main__information-table .swiper-scrollbar .swiper-scrollbar-drag {
+  background: #FCD54C;
+  cursor: grab;
+}
+.main-container .main__information-table .swiper-scrollbar .swiper-scrollbar-drag:active {
+  cursor: grabbing;
+}
+.main-container .main__information-table .main-swipper__additional-elements {
+  display: flex;
+  align-items: center;
+}
+.main-container .main__information-table .main-swipper__additional-elements .main-swipper__reboot {
+  position: absolute;
+  top: 0;
+  right: -4px;
+  margin-right: 4px;
+  padding: 4px 4px 0 4px;
+  background-color: #141414;
+  z-index: 1;
+  cursor: pointer;
+}
+.main-container .main__information-table .main-swipper__additional-elements .main-swipper__reboot .reboot-icon {
+  width: 26px;
+  height: 26px;
+}
+.main-container .main__information-table .main-swipper__additional-elements .main-swiper__scrollbar-line {
+  width: 100%;
+  padding: 0 1.1% 0 1.1%;
+}
+.main-container .main__information-table .main-swipper__additional-elements .main-swiper__scrollbar-line .line {
+  width: 100%;
+  height: 4px;
+  background-color: #FCD54C;
+  border-radius: 5px;
+}

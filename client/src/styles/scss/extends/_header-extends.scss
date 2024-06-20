@@ -1,0 +1,108 @@
+%vertical-alignment {
+    display: flex;
+    align-items: center;
+}
+
+%background-color-1c1c1e {
+    background-color: #1c1c1e;
+}
+%background-color-FCD54C {
+    background-color: #FCD54C;
+}
+
+%position-relative {
+    position: relative;
+}
+%position-absolute {
+    position: absolute;
+}
+
+%menu-text-parameters {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+%cursor-pointer {
+    cursor: pointer;
+}
+
+%transition-all {
+    transition: all 0.3s ease;
+}
+
+%menu-item-name-margin {
+    margin-left: 5px;
+}
+
+%content-position {
+    content: '';
+    @extend %position-absolute;
+}
+
+%arrow-parameters {
+    width: 10px;
+    height: 6px;
+    @extend %background-color-FCD54C;
+    clip-path: polygon(50% 100%, 0% 0%, 100% 0%);
+    @extend %transition-all;
+}
+%activated-arrow-parameters {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+%popup-menu-parameters {
+    @extend %position-absolute;
+    width: 100%;
+    @extend %background-color-1c1c1e;
+    background-color: #252527;
+
+    opacity: 0;
+    transform: translateY(-5px);
+    visibility: hidden;
+
+    @extend %transition-all;
+}
+%activated-popup-menu-parameters {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+%menu-list-parameters {
+    padding: 0;
+    list-style-type: none;
+}
+%popup-menu-list-parameters {
+    margin: 5px;
+    @extend %menu-list-parameters;
+}
+
+%popup-menu-item-parameters {
+    @extend %vertical-alignment;
+    padding: 10px;
+    @extend %menu-text-parameters;
+    @extend %cursor-pointer;
+    @extend %transition-all;
+}
+%popup-menu-item-hover-parameters {
+    color: #1c1c1e;
+    @extend %background-color-FCD54C;
+}
+%icon-color-hover {
+    filter: grayscale(100%) invert(100%);
+}
+
+%underline-parameters {
+    @extend %content-position;
+    @extend %background-color-FCD54C;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: -5px;
+    transform: scaleX(0);
+    @extend %transition-all;
+}
+%underline-hover-parameters {
+    transform: scaleX(1);
+}

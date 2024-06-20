@@ -1,0 +1,15 @@
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #FCD54C #141414;
+}
+
+.containerApp {
+  padding: 10px;
+  background-color: #141414;
+  color: #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+}

@@ -1,0 +1,196 @@
+.profile-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.profile-container .profile-popup {
+  max-width: 480px;
+  width: 100%;
+  background-color: #1c1c1e;
+  margin: 10px;
+}
+.profile-container .profile-popup .profile-popup__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #252527;
+  padding: 5px 10px;
+}
+.profile-container .profile-popup .profile-popup__header .profile-popup__functional-part {
+  display: flex;
+  align-items: center;
+}
+.profile-container .profile-popup .profile-popup__header .profile-popup__functional-part .profile-popup__reboot {
+  margin-right: 8px;
+  padding: 5px 4px 0 4px;
+  cursor: pointer;
+}
+.profile-container .profile-popup .profile-popup__header .profile-popup__functional-part .profile-popup__reboot .reboot-icon {
+  width: 18px;
+  height: 18px;
+}
+.profile-container .profile-popup .profile-popup__header .profile-popup__functional-part .profile-popup__menu {
+  position: relative;
+}
+.profile-container .profile-popup .profile-popup__header .profile-popup__functional-part .profile-popup__menu .profile-menu__activator {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.profile-container .profile-popup .profile-popup__header .profile-popup__functional-part .profile-popup__menu .profile-menu__activator .profile-menu__title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.profile-container .profile-popup .profile-popup__header .profile-popup__functional-part .profile-popup__menu .profile-menu__activator .profile-menu__arrow {
+  width: 10px;
+  height: 6px;
+  background-color: #FCD54C;
+  -webkit-clip-path: polygon(50% 100%, 0% 0%, 100% 0%);
+          clip-path: polygon(50% 100%, 0% 0%, 100% 0%);
+  margin: 5px 0 0 8px;
+  transition: all 0.3s ease;
+}
+.profile-container .profile-popup .profile-popup__header .profile-popup__functional-part .profile-popup__menu .profile-menu__activator .profile-menu__arrow.active {
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+          clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.profile-container .profile-popup .profile-popup__header .profile-popup__functional-part .profile-popup__menu .profile-menu__context {
+  position: absolute;
+  top: calc(100% + 10px);
+  width: 200%;
+  background-color: #252527;
+  opacity: 0;
+  transform: translateY(-5px);
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+.profile-container .profile-popup .profile-popup__header .profile-popup__functional-part .profile-popup__menu .profile-menu__context.active {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+.profile-container .profile-popup .profile-popup__header .profile-popup__functional-part .profile-popup__menu .profile-menu__context .profile-menu__context-list {
+  padding: 0;
+  margin: 5px;
+  list-style-type: none;
+}
+.profile-container .profile-popup .profile-popup__header .profile-popup__functional-part .profile-popup__menu .profile-menu__context .profile-menu__context-list .profile-menu__context-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 15px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.profile-container .profile-popup .profile-popup__header .profile-popup__functional-part .profile-popup__menu .profile-menu__context .profile-menu__context-list .profile-menu__context-item:hover {
+  color: #252527;
+  background-color: #FCD54C;
+}
+.profile-container .profile-popup .profile-popup__header .profile-popup__functional-part .profile-popup__menu .profile-menu__context .profile-menu__context-list .profile-menu__context-item:hover > .item-icon {
+  filter: grayscale(100%) invert(100%);
+}
+.profile-container .profile-popup .profile-popup__header .profile-popup__functional-part .profile-popup__menu .profile-menu__context .profile-menu__context-list .profile-menu__context-item.active {
+  background-color: red;
+  color: #fff;
+}
+.profile-container .profile-popup .profile-popup__header .profile-popup__functional-part .profile-popup__menu .profile-menu__context .profile-menu__context-list .profile-menu__context-item.active .item-icon {
+  filter: none;
+}
+.profile-container .profile-popup .profile-popup__header .profile-popup__functional-part .profile-popup__menu .profile-menu__context .profile-menu__context-list .profile-menu__context-item .item-icon {
+  width: 18px;
+  height: 18px;
+  transition: all 0.3s ease;
+}
+.profile-container .profile-popup .profile-popup__header .profile-popup__functional-part .profile-popup__menu .profile-menu__context .profile-menu__context-list .profile-menu__context-item .item-name {
+  cursor: pointer;
+  margin-left: 5px;
+}
+.profile-container .profile-popup .profile-popup__header .profile-popup__close {
+  padding: 4px 4px 0 4px;
+  cursor: pointer;
+}
+.profile-container .profile-popup .profile-popup__header .profile-popup__close .close-icon {
+  width: 18px;
+  height: 18px;
+}
+.profile-container .profile-popup .profile-popup__form {
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile-container .profile-popup .profile-popup__form .profile-popup__image-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.profile-container .profile-popup .profile-popup__form .profile-popup__image-box input {
+  display: none;
+}
+.profile-container .profile-popup .profile-popup__form .profile-popup__image-box label {
+  display: flex;
+  align-items: center;
+  margin-left: 20%;
+  border: 2px solid #FCD54C;
+  cursor: pointer;
+}
+.profile-container .profile-popup .profile-popup__form .profile-popup__image-box label .user-image {
+  width: 170px;
+  height: 170px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.profile-container .profile-popup .profile-popup__form .profile-popup__input-box {
+  width: 100%;
+  margin-top: 24px;
+}
+.profile-container .profile-popup .profile-popup__form .profile-popup__input-box .profile-popup__full-name,
+.profile-container .profile-popup .profile-popup__form .profile-popup__input-box .profile-popup__number-phone,
+.profile-container .profile-popup .profile-popup__form .profile-popup__input-box .profile-popup__email,
+.profile-container .profile-popup .profile-popup__form .profile-popup__input-box .profile-popup__password {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #fff;
+  padding: 4px 10px;
+  background-color: #222222;
+}
+.profile-container .profile-popup .profile-popup__form .profile-popup__input-box .profile-popup__full-name input,
+.profile-container .profile-popup .profile-popup__form .profile-popup__input-box .profile-popup__number-phone input,
+.profile-container .profile-popup .profile-popup__form .profile-popup__input-box .profile-popup__email input,
+.profile-container .profile-popup .profile-popup__form .profile-popup__input-box .profile-popup__password input {
+  width: 100%;
+  font-size: 14px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #FCD54C;
+  padding: 5px 0;
+}
+.profile-container .profile-popup .profile-popup__form .profile-popup__input-box .profile-popup__full-name .input-icon,
+.profile-container .profile-popup .profile-popup__form .profile-popup__input-box .profile-popup__number-phone .input-icon,
+.profile-container .profile-popup .profile-popup__form .profile-popup__input-box .profile-popup__email .input-icon,
+.profile-container .profile-popup .profile-popup__form .profile-popup__input-box .profile-popup__password .input-icon {
+  width: 18px;
+  height: 18px;
+  filter: brightness(0) invert(1);
+  margin-left: 10px;
+}
+.profile-container .profile-popup .profile-popup__form .profile-popup__input-box .profile-popup__number-phone,
+.profile-container .profile-popup .profile-popup__form .profile-popup__input-box .profile-popup__email {
+  margin: 24px 0;
+}
+.profile-container .profile-popup .profile-popup__form .profile-popup__submit-btn {
+  display: none;
+}

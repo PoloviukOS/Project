@@ -1,0 +1,64 @@
+.footer .general-data, .footer .general-data .general-data__country, .footer .social-networks .social-networks__list, .footer {
+  display: flex;
+}
+
+.footer .general-data .general-data__country, .footer .social-networks .social-networks__list, .footer {
+  align-items: center;
+}
+
+.footer {
+  width: 100%;
+  height: 64px;
+  background-color: #1c1c1e;
+  justify-content: space-between;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.footer .logo {
+  position: relative;
+  line-height: 22px;
+  padding: 4px 8px;
+}
+.footer .logo::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 94%;
+  width: 15%;
+  border: 2px solid #FCD54C;
+  border-right: none;
+}
+.footer .logo .logo__name {
+  font-size: 21px;
+}
+.footer .logo .logo__slogan {
+  font-size: 10px;
+  font-style: italic;
+}
+.footer .social-networks .social-networks__list {
+  padding: 0;
+  list-style-type: none;
+}
+.footer .social-networks .social-networks__list .social-network__item:nth-child(n) {
+  margin: 0 10px;
+}
+.footer .social-networks .social-networks__list .social-network__item:hover .social-network__icon {
+  filter: drop-shadow(0px 0px 5px #FCD54C);
+}
+.footer .social-networks .social-networks__list .social-network__item .social-network__icon {
+  margin-top: 4px;
+  width: 30px;
+  height: 30px;
+  transition: filter 0.3s ease;
+}
+.footer .general-data {
+  flex-direction: column;
+  align-items: end;
+  font-size: 12px;
+}
+.footer .general-data .general-data__country .general-data__country-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}

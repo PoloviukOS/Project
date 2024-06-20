@@ -1,0 +1,125 @@
+.orders-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.orders-container .orders-popup {
+  max-width: 480px;
+  width: 100%;
+  background-color: #1c1c1e;
+  margin: 10px;
+}
+.orders-container .orders-popup .orders-popup__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #252527;
+  padding: 5px 10px;
+}
+.orders-container .orders-popup .orders-popup__header .orders-popup__functional-part {
+  display: flex;
+  align-items: center;
+}
+.orders-container .orders-popup .orders-popup__header .orders-popup__functional-part .orders-popup__reboot {
+  margin-right: 8px;
+  padding: 5px 4px 0 4px;
+  cursor: pointer;
+}
+.orders-container .orders-popup .orders-popup__header .orders-popup__functional-part .orders-popup__reboot .reboot-icon {
+  width: 18px;
+  height: 18px;
+}
+.orders-container .orders-popup .orders-popup__header .orders-popup__functional-part .orders-popup__title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.orders-container .orders-popup .orders-popup__header .orders-popup__close {
+  padding: 4px 4px 0 4px;
+  cursor: pointer;
+}
+.orders-container .orders-popup .orders-popup__header .orders-popup__close .close-icon {
+  width: 18px;
+  height: 18px;
+}
+.orders-container .orders-popup .orders-popup__form {
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.orders-container .orders-popup .orders-popup__form .orders-popup__input-box {
+  width: 100%;
+  margin-bottom: 24px;
+}
+.orders-container .orders-popup .orders-popup__form .orders-popup__input-box .orders-popup__full-name,
+.orders-container .orders-popup .orders-popup__form .orders-popup__input-box .orders-popup__number-phone,
+.orders-container .orders-popup .orders-popup__form .orders-popup__input-box .orders-popup__email {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #fff;
+  padding: 4px 10px;
+  background-color: #222222;
+  opacity: 0.5;
+}
+.orders-container .orders-popup .orders-popup__form .orders-popup__input-box .orders-popup__full-name input,
+.orders-container .orders-popup .orders-popup__form .orders-popup__input-box .orders-popup__number-phone input,
+.orders-container .orders-popup .orders-popup__form .orders-popup__input-box .orders-popup__email input {
+  width: 100%;
+  font-size: 14px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #FCD54C;
+  padding: 5px 0;
+}
+.orders-container .orders-popup .orders-popup__form .orders-popup__input-box .orders-popup__full-name .input-icon,
+.orders-container .orders-popup .orders-popup__form .orders-popup__input-box .orders-popup__number-phone .input-icon,
+.orders-container .orders-popup .orders-popup__form .orders-popup__input-box .orders-popup__email .input-icon {
+  width: 18px;
+  height: 18px;
+  filter: brightness(0) invert(1);
+  margin-left: 10px;
+}
+.orders-container .orders-popup .orders-popup__form .orders-popup__input-box .orders-popup__order {
+  border-bottom: 2px solid #fff;
+  padding: 4px 10px;
+  background-color: #222222;
+}
+.orders-container .orders-popup .orders-popup__form .orders-popup__input-box .orders-popup__order textarea {
+  width: 100%;
+  height: 160px;
+  font-size: 14px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #FCD54C;
+  padding: 5px 0;
+}
+.orders-container .orders-popup .orders-popup__form .orders-popup__input-box .orders-popup__number-phone,
+.orders-container .orders-popup .orders-popup__form .orders-popup__input-box .orders-popup__email {
+  margin: 24px 0;
+}
+.orders-container .orders-popup .orders-popup__form .oredrs-popup__submit-btn {
+  background-color: #FCD54C;
+  border: none;
+  color: #1c1c1e;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 60px;
+  margin-left: 20%;
+  cursor: pointer;
+}
+.orders-container .orders-popup .orders-popup__form .oredrs-popup__submit-btn.active {
+  background-color: red;
+  color: #fff;
+}

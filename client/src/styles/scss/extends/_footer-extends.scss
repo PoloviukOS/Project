@@ -1,0 +1,8 @@
+%display-flex {
+    display: flex;
+}
+
+%vertical-alignment {
+    @extend %display-flex;
+    align-items: center;
+}

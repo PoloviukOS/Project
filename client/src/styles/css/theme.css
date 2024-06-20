@@ -1,0 +1,157 @@
+.containerApp.light {
+  background-color: rgb(30, 30, 30);
+}
+.containerApp.light * {
+  scrollbar-color: #FCD54C rgb(30, 30, 30);
+}
+.containerApp.light .header {
+  background-color: rgb(38, 38, 40);
+}
+.containerApp.light .header .navigation-menu__context {
+  background-color: rgb(47, 47, 49);
+}
+.containerApp.light .header .custom-menu .custom-menu__list .authentication-menu .authentication-menu__context,
+.containerApp.light .header .custom-menu .custom-menu__list .authentication-menu .account-menu__context,
+.containerApp.light .header .custom-menu .custom-menu__list .account-menu .authentication-menu__context,
+.containerApp.light .header .custom-menu .custom-menu__list .account-menu .account-menu__context {
+  background-color: rgb(47, 47, 49);
+}
+.containerApp.light .signUp-container .signUp-popup {
+  background-color: rgb(38, 38, 40);
+}
+.containerApp.light .signUp-container .signUp-popup .signUp-popup__header {
+  background-color: rgb(47, 47, 49);
+}
+.containerApp.light .signUp-container .signUp-popup .signUp-popup__form .signUp-popup__input-box .signUp-popup__full-name,
+.containerApp.light .signUp-container .signUp-popup .signUp-popup__form .signUp-popup__input-box .signUp-popup__number-phone,
+.containerApp.light .signUp-container .signUp-popup .signUp-popup__form .signUp-popup__input-box .signUp-popup__email,
+.containerApp.light .signUp-container .signUp-popup .signUp-popup__form .signUp-popup__input-box .signUp-popup__password {
+  background-color: rgb(44, 44, 44);
+}
+.containerApp.light .signIn-container .signIn-popup {
+  background-color: rgb(38, 38, 40);
+}
+.containerApp.light .signIn-container .signIn-popup .signIn-popup__header {
+  background-color: rgb(47, 47, 49);
+}
+.containerApp.light .signIn-container .signIn-popup .signIn-popup__form .signIn-popup__input-box .signIn-popup__email,
+.containerApp.light .signIn-container .signIn-popup .signIn-popup__form .signIn-popup__input-box .signIn-popup__password {
+  background-color: rgb(44, 44, 44);
+}
+.containerApp.light .profile-container .profile-popup {
+  background-color: rgb(38, 38, 40);
+}
+.containerApp.light .profile-container .profile-popup .profile-popup__header {
+  background-color: rgb(47, 47, 49);
+}
+.containerApp.light .profile-container .profile-popup .profile-popup__header .profile-popup__functional-part .profile-popup__menu .profile-menu__context {
+  background-color: rgb(47, 47, 49);
+}
+.containerApp.light .profile-container .profile-popup .profile-popup__form .profile-popup__input-box .profile-popup__full-name,
+.containerApp.light .profile-container .profile-popup .profile-popup__form .profile-popup__input-box .profile-popup__number-phone,
+.containerApp.light .profile-container .profile-popup .profile-popup__form .profile-popup__input-box .profile-popup__email,
+.containerApp.light .profile-container .profile-popup .profile-popup__form .profile-popup__input-box .profile-popup__password {
+  background-color: rgb(44, 44, 44);
+}
+.containerApp.light .realEstate-container .realEstate-popup {
+  background-color: rgb(38, 38, 40);
+}
+.containerApp.light .realEstate-container .realEstate-popup .realEstate-popup__header {
+  background-color: rgb(47, 47, 49);
+}
+.containerApp.light .realEstate-container .realEstate-popup .realEstate-popup__header .realEstate-popup__filter .realEstate-popup__search {
+  background-color: rgb(47, 47, 49);
+}
+.containerApp.light .realEstate-container .realEstate-popup .realEstate-popup__information-cards .realEstate-popup__form .realEstate-popup__input-box .realEstate-popup__full-address,
+.containerApp.light .realEstate-container .realEstate-popup .realEstate-popup__information-cards .realEstate-popup__form .realEstate-popup__input-box .realEstate-popup__number-rooms,
+.containerApp.light .realEstate-container .realEstate-popup .realEstate-popup__information-cards .realEstate-popup__form .realEstate-popup__input-box .realEstate-popup__price,
+.containerApp.light .realEstate-container .realEstate-popup .realEstate-popup__information-cards .realEstate-popup__form .realEstate-popup__input-box .realEstate-popup__link,
+.containerApp.light .realEstate-container .realEstate-popup .realEstate-popup__information-cards .realEstate-popup__form .realEstate-popup__input-box .realEstate-popup__description,
+.containerApp.light .realEstate-container .realEstate-popup .realEstate-popup__information-cards .realEstate-popup__card .realEstate-popup__input-box .realEstate-popup__full-address,
+.containerApp.light .realEstate-container .realEstate-popup .realEstate-popup__information-cards .realEstate-popup__card .realEstate-popup__input-box .realEstate-popup__number-rooms,
+.containerApp.light .realEstate-container .realEstate-popup .realEstate-popup__information-cards .realEstate-popup__card .realEstate-popup__input-box .realEstate-popup__price,
+.containerApp.light .realEstate-container .realEstate-popup .realEstate-popup__information-cards .realEstate-popup__card .realEstate-popup__input-box .realEstate-popup__link,
+.containerApp.light .realEstate-container .realEstate-popup .realEstate-popup__information-cards .realEstate-popup__card .realEstate-popup__input-box .realEstate-popup__description {
+  background-color: rgb(44, 44, 44);
+}
+.containerApp.light .realEstate-container .realEstate-popup .realEstate-popup__information-cards .swiper-scrollbar {
+  background: rgb(55, 55, 55);
+}
+.containerApp.light .favorites-container .favorites-popup {
+  background-color: rgb(38, 38, 40);
+}
+.containerApp.light .favorites-container .favorites-popup .favorites-popup__header {
+  background-color: rgb(47, 47, 49);
+}
+.containerApp.light .favorites-container .favorites-popup .favorites-popup__header .favorites-popup__filter .favorites-popup__search {
+  background-color: rgb(47, 47, 49);
+}
+.containerApp.light .favorites-container .favorites-popup .favorites-popup__information-cards .favorites-popup__card .favorites-popup__input-box .favorites-popup__full-address,
+.containerApp.light .favorites-container .favorites-popup .favorites-popup__information-cards .favorites-popup__card .favorites-popup__input-box .favorites-popup__number-rooms,
+.containerApp.light .favorites-container .favorites-popup .favorites-popup__information-cards .favorites-popup__card .favorites-popup__input-box .favorites-popup__price,
+.containerApp.light .favorites-container .favorites-popup .favorites-popup__information-cards .favorites-popup__card .favorites-popup__input-box .favorites-popup__link,
+.containerApp.light .favorites-container .favorites-popup .favorites-popup__information-cards .favorites-popup__card .favorites-popup__input-box .favorites-popup__description {
+  background-color: rgb(44, 44, 44);
+}
+.containerApp.light .favorites-container .favorites-popup .favorites-popup__information-cards .swiper-scrollbar {
+  background: rgb(55, 55, 55);
+}
+.containerApp.light .orders-container .orders-popup {
+  background-color: rgb(38, 38, 40);
+}
+.containerApp.light .orders-container .orders-popup .orders-popup__header {
+  background-color: rgb(47, 47, 49);
+}
+.containerApp.light .orders-container .orders-popup .orders-popup__form .orders-popup__input-box .orders-popup__full-name,
+.containerApp.light .orders-container .orders-popup .orders-popup__form .orders-popup__input-box .orders-popup__number-phone,
+.containerApp.light .orders-container .orders-popup .orders-popup__form .orders-popup__input-box .orders-popup__email,
+.containerApp.light .orders-container .orders-popup .orders-popup__form .orders-popup__input-box .orders-popup__order {
+  background-color: rgb(44, 44, 44);
+}
+.containerApp.light .adminConsole-container .adminConsole-popup {
+  background-color: rgb(38, 38, 40);
+}
+.containerApp.light .adminConsole-container .adminConsole-popup .adminConsole-popup__header {
+  background-color: rgb(47, 47, 49);
+}
+.containerApp.light .adminConsole-container .adminConsole-popup .adminConsole-popup__header .adminConsole-popup__filter .adminConsole-popup__search {
+  background-color: rgb(47, 47, 49);
+}
+.containerApp.light .adminConsole-container .adminConsole-popup .adminConsole-popup__user-information .adminConsole-popup__user-card .adminConsole-popup__input-box .adminConsole-popup__full-name,
+.containerApp.light .adminConsole-container .adminConsole-popup .adminConsole-popup__user-information .adminConsole-popup__user-card .adminConsole-popup__input-box .adminConsole-popup__number-phone,
+.containerApp.light .adminConsole-container .adminConsole-popup .adminConsole-popup__user-information .adminConsole-popup__user-card .adminConsole-popup__input-box .adminConsole-popup__email {
+  background-color: rgb(44, 44, 44);
+}
+.containerApp.light .adminConsole-container .adminConsole-popup .adminConsole-popup__user-information .swiper-scrollbar {
+  background: rgb(55, 55, 55);
+}
+.containerApp.light .filter-container .filter-popup {
+  background-color: rgb(38, 38, 40);
+}
+.containerApp.light .filter-container .filter-popup .filter-popup__header {
+  background-color: rgb(47, 47, 49);
+}
+.containerApp.light .filter-container .filter-popup .filter-popup__form .filter-popup__input-box .filter-popup__full-address,
+.containerApp.light .filter-container .filter-popup .filter-popup__form .filter-popup__input-box .filter-popup__number-rooms,
+.containerApp.light .filter-container .filter-popup .filter-popup__form .filter-popup__input-box .filter-popup__price {
+  background-color: rgb(44, 44, 44);
+}
+.containerApp.light .main-container .main__information-table .main-swiper__card {
+  background-color: rgb(38, 38, 40);
+}
+.containerApp.light .main-container .main__information-table .main-swiper__card .main-swiper__input-box .main-swiper__full-address,
+.containerApp.light .main-container .main__information-table .main-swiper__card .main-swiper__input-box .main-swiper__number-rooms,
+.containerApp.light .main-container .main__information-table .main-swiper__card .main-swiper__input-box .main-swiper__price,
+.containerApp.light .main-container .main__information-table .main-swiper__card .main-swiper__input-box .main-swiper__link,
+.containerApp.light .main-container .main__information-table .main-swiper__card .main-swiper__input-box .main-swiper__description {
+  background-color: rgb(44, 44, 44);
+}
+.containerApp.light .main-container .main__information-table .swiper-scrollbar {
+  background: rgb(55, 55, 55);
+}
+.containerApp.light .main-container .main__information-table .main-swipper__additional-elements .main-swipper__reboot {
+  background-color: rgb(30, 30, 30);
+}
+.containerApp.light .footer {
+  background-color: rgb(38, 38, 40);
+}

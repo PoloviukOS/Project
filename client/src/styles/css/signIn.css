@@ -1,0 +1,92 @@
+.signIn-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.signIn-container .signIn-popup {
+  max-width: 480px;
+  width: 100%;
+  background-color: #1c1c1e;
+  margin: 10px;
+}
+.signIn-container .signIn-popup .signIn-popup__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #252527;
+  padding: 5px 10px;
+}
+.signIn-container .signIn-popup .signIn-popup__header .signIn-popup__title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.signIn-container .signIn-popup .signIn-popup__header .signIn-popup__close {
+  padding: 4px 4px 0 4px;
+  cursor: pointer;
+}
+.signIn-container .signIn-popup .signIn-popup__header .signIn-popup__close .close-icon {
+  width: 18px;
+  height: 18px;
+}
+.signIn-container .signIn-popup .signIn-popup__form {
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signIn-container .signIn-popup .signIn-popup__form .signIn-popup__input-box {
+  width: 100%;
+  margin-bottom: 24px;
+}
+.signIn-container .signIn-popup .signIn-popup__form .signIn-popup__input-box .signIn-popup__email,
+.signIn-container .signIn-popup .signIn-popup__form .signIn-popup__input-box .signIn-popup__password {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #fff;
+  padding: 4px 10px;
+  background-color: #222222;
+}
+.signIn-container .signIn-popup .signIn-popup__form .signIn-popup__input-box .signIn-popup__email input,
+.signIn-container .signIn-popup .signIn-popup__form .signIn-popup__input-box .signIn-popup__password input {
+  width: 100%;
+  font-size: 14px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #FCD54C;
+  padding: 5px 0;
+}
+.signIn-container .signIn-popup .signIn-popup__form .signIn-popup__input-box .signIn-popup__email .input-icon,
+.signIn-container .signIn-popup .signIn-popup__form .signIn-popup__input-box .signIn-popup__password .input-icon {
+  width: 18px;
+  height: 18px;
+  filter: brightness(0) invert(1);
+  margin-left: 10px;
+}
+.signIn-container .signIn-popup .signIn-popup__form .signIn-popup__input-box .signIn-popup__email {
+  margin-bottom: 24px;
+}
+.signIn-container .signIn-popup .signIn-popup__form .signIn-popup__submit-btn {
+  background-color: #FCD54C;
+  border: none;
+  color: #1c1c1e;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 60px;
+  margin-left: 20%;
+  cursor: pointer;
+}
+.signIn-container .signIn-popup .signIn-popup__form .signIn-popup__submit-btn.active {
+  background-color: red;
+  color: #fff;
+}

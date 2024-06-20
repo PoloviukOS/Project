@@ -1,0 +1,224 @@
+@import "./extends/header-extends.scss";
+
+.header {
+    width: 100%;
+    height: 64px;
+    @extend %background-color-1c1c1e;
+    @extend %vertical-alignment;
+    justify-content: space-between;
+    padding: 0 10px;
+    box-sizing: border-box;
+
+    .item-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .navigation-menu {
+        @extend %position-relative;
+
+        .navigation-menu__logo-activator {
+            @extend %position-relative;
+            line-height: 22px;
+            padding: 4px 8px;
+            @extend %cursor-pointer;
+
+            &::before {
+                @extend %content-position;
+                left: 0;
+                top: 0;
+                height: 93%;
+                width: 15%;
+                border: 2px solid #FCD54C;
+                border-right: none;
+            }
+
+            .navigation-menu__logo-name {
+                font-size: 21px;
+            }
+
+            .navigation-menu__logo-bottom {
+                @extend %vertical-alignment;
+                justify-content: space-around;
+
+                .navigation-menu__logo-slogan {
+                    font-size: 10px;
+                    font-style: italic;
+                }
+
+                .navigation-menu__activator-arrow {
+                    @extend %arrow-parameters;
+
+                    &.active {
+                        @extend %activated-arrow-parameters
+                    }
+                }
+            }
+        }
+
+        .navigation-menu__context {
+            @extend %popup-menu-parameters;
+            top: calc(100% + 10px);
+            z-index: 1;
+
+            &.active {
+                @extend %activated-popup-menu-parameters;
+            }
+
+            .navigation-menu__context-list {
+                @extend %popup-menu-list-parameters;
+
+                .navigation-menu__context-item {
+                    @extend %popup-menu-item-parameters;
+
+                    &.about-us, &.support {
+                        opacity: 0.5;
+                    }
+
+                    &:hover {
+                        @extend %popup-menu-item-hover-parameters;
+                    }
+
+                    &:hover > .item-icon {
+                        @extend %icon-color-hover;
+                    }
+
+                    .item-name {
+                        @extend %menu-item-name-margin;
+                    }
+
+                    .item-icon {
+                        @extend %transition-all;
+                    }
+                }
+            }
+        }
+    }
+
+    .custom-menu {
+
+
+        .custom-menu__list {
+            @extend %vertical-alignment;
+            @extend %menu-list-parameters;
+
+            .custom-menu__item {
+                @extend %vertical-alignment;
+                @extend %position-relative;
+                @extend %menu-text-parameters;
+                @extend %cursor-pointer;
+
+                &:nth-child(n) {
+                    margin: 0 15px;
+                }
+
+                &::before {
+                    @extend %underline-parameters;
+                }
+
+                &:hover::before {
+                    @extend %underline-hover-parameters
+                }
+
+                .item-name {
+                    @extend %menu-item-name-margin;
+                }
+            }
+
+            .authentication-menu,
+            .account-menu {
+                z-index: 1;
+
+                .authentication-menu__activator,
+                .account-menu__activator {
+                    @extend %vertical-alignment;
+
+                    .item-name {
+                        margin: 0 8px;
+                    }
+
+                    .item-arrow {
+                        @extend %arrow-parameters;
+
+                        &.active {
+                            @extend %activated-arrow-parameters
+                        }
+                    }
+                }
+
+                .authentication-menu__context,
+                .account-menu__context {
+                    @extend %popup-menu-parameters;
+                    top: calc(100% + 27px);
+
+                    &.active {
+                        @extend %activated-popup-menu-parameters;
+                    }
+
+                    .authentication-menu__context-list,
+                    .account-menu__context-list {
+                        @extend %popup-menu-list-parameters;
+
+                        .authentication-menu__context-item,
+                        .account-menu__context-item {
+                            @extend %popup-menu-item-parameters;
+
+                            &:hover {
+                                @extend %popup-menu-item-hover-parameters;
+                            }
+        
+                            &:hover > .item-icon {
+                                @extend %icon-color-hover;
+                            }
+        
+                            .item-name {
+                                @extend %menu-item-name-margin;
+                            }
+        
+                            .item-icon {
+                                @extend %transition-all;
+                            }
+                        }
+                    }
+                }
+
+                .account-menu__context {
+                    width: calc(100% + 65%);
+                }
+            }
+        }
+    }
+
+    .control-menu {
+        .control-menu__list {
+            @extend %vertical-alignment;
+            @extend %menu-list-parameters;
+
+            .control-menu__item {
+                @extend %vertical-alignment;
+                @extend %position-relative;
+                @extend %menu-text-parameters;
+                @extend %cursor-pointer;
+
+                &::before {
+                    @extend %underline-parameters;
+                }
+
+                &:hover::before {
+                    @extend %underline-hover-parameters
+                }
+
+                .item-name {
+                    @extend %menu-item-name-margin;
+                }
+            }
+
+            .control-menu__item-line {
+                width: 2px;
+                height: 18px;
+                background-color: #FCD54C;
+                margin: 0 15px;
+            }
+        }
+    }
+}
